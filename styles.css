@@ -66,10 +66,18 @@ li a:hover {
 .main-contenu h3 {
     text-decoration:underline;
     font-size: 32px;
-    color: cornflowerblue;
 }
 
 .main-contenu li {
     font-weight: bold;
     font-size:20px;
 }
+
+.img-projet1 {
+    width: 350px;
+    border-radius: 16px;
+}
+
+
+
+
