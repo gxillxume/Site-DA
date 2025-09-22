@@ -5,23 +5,23 @@ body {
     padding: 0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+/* Style pour le menu de navigation*/
 .menu {
     display: flex;
     align-items: center;
     background-color: #151e28;
     padding: 10px;
 }
-.logo-img {
+.logo-img { /* Logo codetech(menu) */
     border-radius: 50px;
     width: 70px;
     border: 2px solid antiquewhite;
 }
 li {
-    list-style: none;
+    list-style:disc;
     margin: 20px;
 }
-li a {
+li a { /* links du menu de navigation */
     text-decoration: none;
     color: #faebd7;
     font-weight: 600;
@@ -32,20 +32,44 @@ li a:hover {
     text-decoration: underline;
 }
 
+/* Fin nav menu */
+/* style pour acceuil*/
+
 .main {
     padding: 10px;
 }
 
 .main h2 {
     font-size: 52px;
+    margin: 10px;
 }
 
 .main h3 {
     font-size: 22px;
+    margin-left: 10px;
 }
 
-.main p {
+.main-contenu p {
     font-size: 18px;
     width: 500px;
     margin-left: 20px;
+}
+
+.main-contenu {
+    background-color: #151e28;
+    width: 500px;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 16px;
+}
+
+.main-contenu h3 {
+    text-decoration:underline;
+    font-size: 32px;
+    color: cornflowerblue;
+}
+
+.main-contenu li {
+    font-weight: bold;
+    font-size:20px;
 }
